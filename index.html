@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0e1116">
+  <title>RandevuPro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="brand"><div class="logo">RP</div><div><small>RANDEVU PRO</small><h1 id="businessName">Modern Barber Studio</h1></div></div>
+      <div class="heroCard">
+        <div class="open">● BUGÜN AÇIĞIZ</div>
+        <h2>Kendine zaman ayır.</h2>
+        <p>09:00 – 21:00 · Aynı gün randevu</p>
+      </div>
+    </header>
+
+    <section class="card"><h3>1. Hizmetini seç</h3><div id="services" class="list"></div></section>
+    <section class="card"><h3>2. Personel seç</h3><div id="staff" class="grid"></div></section>
+    <section class="card"><h3>3. Tarih seç</h3><div id="dates" class="grid"></div></section>
+    <section class="card"><h3>4. Saat seç</h3><div id="times" class="timegrid"></div></section>
+
+    <section class="card">
+      <h3>5. Bilgilerin</h3>
+      <label>Ad Soyad</label>
+      <input id="customerName" placeholder="Örn. Enes Gürbüz">
+      <label>Not <span>(isteğe bağlı)</span></label>
+      <textarea id="note" placeholder="Örn. Yanlar kısa olsun."></textarea>
+    </section>
+
+    <section class="summary">
+      <div class="sumHead"><div><small>RANDEVU ÖZETİ</small><h3>Seçimlerini kontrol et</h3></div><b id="summaryPrice">—</b></div>
+      <div class="row"><span>Hizmet</span><strong id="summaryService">Seçilmedi</strong></div>
+      <div class="row"><span>Personel</span><strong id="summaryStaff">Seçilmedi</strong></div>
+      <div class="row"><span>Tarih</span><strong id="summaryDate">Seçilmedi</strong></div>
+      <div class="row"><span>Saat</span><strong id="summaryTime">Seçilmedi</strong></div>
+    </section>
+
+    <button id="wa" class="wa">WhatsApp'tan Randevu Talebi Gönder</button>
+    <p class="note">Bu demo ödeme almaz. Randevu bilgileri WhatsApp mesajı olarak işletmeye gönderilir.</p>
+    <footer>RandevuPro · İşletmelere özel hızlı randevu sistemi</footer>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
