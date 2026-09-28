@@ -1,4 +1,4 @@
-const BUSINESS={name:"Modern Barber Studio",whatsapp:"905555555555"};
+const BUSINESS={name:"Modern Barber Studio",whatsapp:"905510126346"};
 const SERVICES=[{name:"Saç Kesimi",duration:"30 dk",price:350},{name:"Sakal Tıraşı",duration:"20 dk",price:200},{name:"Saç + Sakal",duration:"50 dk",price:500},{name:"VIP Bakım",duration:"60 dk",price:750}];
 const STAFF=["Fark Etmez","Emre","Mert","Can"];
 const TIMES=["09:30","10:30","11:30","13:00","14:30","15:30","17:00","18:30","20:00"];
